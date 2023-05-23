@@ -1,4 +1,4 @@
-# JS - Zajęcia #
+# JS - Zajęcia 11 - DOM
 
 ### Jak uruchomić?
 
