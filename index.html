@@ -1,36 +1,70 @@
-<!doctype html>
+<!DOCTYPE html>
 <html class="no-js" lang="pl">
+  <head>
+    <meta charset="utf-8" />
+    <title>JS - Zajęcia 11 - DOM</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<head>
-  <meta charset="utf-8">
-  <title>JS - Zajęcia 11 - DOM</title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:title" content="" />
+    <meta property="og:type" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
 
-  <meta property="og:title" content="">
-  <meta property="og:type" content="">
-  <meta property="og:url" content="">
-  <meta property="og:image" content="">
+    <link rel="manifest" href="site.webmanifest" />
+    <link rel="apple-touch-icon" href="icon.png" />
+    <!-- Place favicon.ico in the root directory -->
 
-  <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png">
-  <!-- Place favicon.ico in the root directory -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/boxsizing.css" />
+    <link rel="stylesheet" href="css/styles.css" />
 
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/boxsizing.css">
-  <link rel="stylesheet" href="css/styles.css">
+    <script src="js/main.js" defer></script>
 
-  <script src="js/main.js" defer></script>
+    <meta name="theme-color" content="#fafafa" />
+  </head>
 
-  <meta name="theme-color" content="#fafafa">
-</head>
+  <body>
+    <h1 class="page-title">JS - Zajęcia 11 - DOM</h1>
+    <div class="js-content container">
+      <code id="js-output"></code>
 
-<body>
-<h1 class="page-title">JS - Zajęcia 11 - DOM</h1>
-<div class="js-content">
-  <code id="js-output"></code>
-</div>
-</body>
+      <ul>
+        <li id="first-element-id" class="first-element">Element1</li>
+        <li class="sec-el">Element2</li>
+        <li>Element3</li>
+        <li>Element4</li>
+      </ul>
 
+      <div class="actions">
+        <button type="button" class="btn" data-action="save">Save</button>
+        <button type="button" class="btn" data-action="close">Close</button>
+      </div>
+
+      <ul class="dishes">
+        <li data-id="14">Baked Yak &amp; Mushrooms</li>
+        <li data-id="7">Strawberry Pancakes</li>
+        <li data-id="3">Caramel Toffee</li>
+        <li data-id="61">Pistachio Elderberry Wafer</li>
+      </ul>
+      <div id="list-wrapper">
+        <ul>
+          <li>E1</li>
+          <li>E2</li>
+          <li>E3</li>
+          <li>E4</li>
+        </ul>
+      </div>
+
+      <section>
+        <h2>Popular technologies</h2>
+        <ul class="list-tech"></ul>
+      </section>
+
+      <ul class="usernames">
+        <li>Mango</li>
+      </ul>
+    </div>
+  </body>
 </html>
